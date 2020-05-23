@@ -5,7 +5,7 @@ description: 데일리 펀딩 자격사항과 관련된 프로젝트 혹은 간�
 background: '/img/bg-about.jpg'
 ---
 
-{% for post in paginator.posts %}
+{% for post in paginator.fields %}
 
 <article class="post-preview">
   <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
