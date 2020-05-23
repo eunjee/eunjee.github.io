@@ -2,7 +2,6 @@
 layout: post
 title:  "첫포스트"
 author: EunJee Jo
-categories: [ Jekyll ]
 image: assets/images/11.jpg
 featured: true
 hidden: false
